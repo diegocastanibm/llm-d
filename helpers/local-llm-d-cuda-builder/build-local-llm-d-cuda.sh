@@ -3,9 +3,9 @@
 # Build the llm-d CUDA image locally.
 #
 # Usage:
-#   ./docker/scripts/cuda/builder/build-local-llm-d-cuda.sh                # defaults
-#   ./docker/scripts/cuda/builder/build-local-llm-d-cuda.sh --tag my-test   # custom tag
-#   ./docker/scripts/cuda/builder/build-local-llm-d-cuda.sh --help
+#   ./helpers/local-llm-d-cuda-builder/build-local-llm-d-cuda.sh                # defaults
+#   ./helpers/local-llm-d-cuda-builder/build-local-llm-d-cuda.sh --tag my-test   # custom tag
+#   ./helpers/local-llm-d-cuda-builder/build-local-llm-d-cuda.sh --help
 #
 # All options can also be set via environment variables (see below).
 #
