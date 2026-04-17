@@ -27,7 +27,8 @@ inferenceExtension:
     prometheus:
       enabled: true
       auth:
-        secretName: inference-scheduling-gateway-sa-metrics-reader-secret
+        # Disabled for PoC/Kind cluster to allow unauthenticated /metrics access
+        enabled: false
 inferencePool:
   targetPorts:
     - number: 8000
